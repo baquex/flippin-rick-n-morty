@@ -23,7 +23,7 @@ body {
 }
 
 #start-btn {
-  background: rgb(112, 70, 22);
+  background: rgb(168, 63, 63);
   color: #fff;
   display: flex;
   align-items: center;
@@ -31,10 +31,18 @@ body {
   width:  50%;
   height: 60px;
   margin: auto;
+  cursor: pointer;
+  box-shadow: -10px 8px 5px rgb(0, 0, 0);
+
+  &:hover {
+    background: rgb(148, 55, 55);
+  }
 
   @media (min-width: $layout-breakpoint-mobile) {
     width:  70%;
     height: 80px;
     max-width: 350px;
   }
+
+  
 }
