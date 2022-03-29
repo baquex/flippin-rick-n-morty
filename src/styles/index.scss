@@ -1,0 +1,40 @@
+$layout-breakpoint-mobile: 600px;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url('../images/bg-image-small.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+  @media (min-width: $layout-breakpoint-mobile) {
+    background: url('../images/bg-image.png');
+    background-position: center;
+  }
+}
+
+#start-btn {
+  background: rgb(112, 70, 22);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:  50%;
+  height: 60px;
+  margin: auto;
+
+  @media (min-width: $layout-breakpoint-mobile) {
+    width:  70%;
+    height: 80px;
+    max-width: 350px;
+  }
+}

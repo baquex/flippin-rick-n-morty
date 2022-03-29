@@ -1,8 +1,8 @@
 export default function App(){
   return(
-    <div className="app">
+    <div id="start-btn">
       <h1>
-        Hola Reacts
+        Start
       </h1>
     </div>
   );
